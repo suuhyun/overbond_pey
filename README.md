@@ -13,6 +13,15 @@ A function ```display``` visualizes the data from a parsed file
 ## Technical choices
 _Matplotlib_ is used for visualization because the library makes it easier to customize style and layout, and it provides a wide range of plots including scatter plot.
 
+## Trade-offs
+* The dates could have been formatted better. 'DD-Month-YY'
+* The interval or x-axis could have been narrower.
+
+## Visualization
+The visualization of the ```example.txt``` file<br />
+![Figure_1](https://user-images.githubusercontent.com/39171224/154821293-59348ab0-6e62-4598-8aec-12d969735c01.png)
+
+
 ## How to Execute
 ### For Windows
 Upgrade pip before installing Matplotlib
